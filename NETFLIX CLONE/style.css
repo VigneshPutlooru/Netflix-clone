@@ -1,0 +1,435 @@
+/* body */
+*{
+  margin:  0;
+  padding: 0;
+}
+
+/* NAVIGATION BAR
+--------------------------------------------------------------------- 
+*/
+
+nav{
+  display: flex;
+  /* flex-direction: ; */
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 15px;
+  flex-wrap: wrap;
+}
+div.buttons{
+  z-index: 10;
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+button#login{
+  background-color: #e50914;
+    color: white;
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px solid #e50914;
+    margin: 2px 2px;
+    padding: 8px 17px;
+    left: 74px;
+    position: relative;
+}
+button#login:hover{
+  cursor: pointer;
+  background-color: #c4050e;
+}
+
+div.buttons select{
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border: 1px solid #bbc5be;
+  padding: 6px 14px;
+  margin: 2px -14px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: 400;
+  position: relative;
+  left: 40px;
+  width: 119px;
+  top: 2px;
+
+}
+div.buttons select:enabled{
+  border: 2px solid white;
+}
+img.logo{
+  width: 9.25rem;
+  height: 2.5rem;
+  z-index: 10;
+  position: relative;
+  right: 87px;
+  margin: 9px 8px;
+  
+}
+
+/* HOME SECTION 
+--------------------------------------------------------------------- 
+*/
+
+.home{
+  background-image: url(ASSETS/bg.jpg);
+  height: 112vh;
+  background-position: center center;
+  position: relative;
+  background-size: max(1000px, 100vw);
+  background-repeat: no-repeat ;
+  
+  
+}
+div.box{
+  height: 112vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+div.heading{
+  color: rgb(255, 255, 255);
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 74%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 40px 174px;
+  flex-direction: column;
+}
+h1{
+  z-index: 5;
+  
+}
+div.heading p{
+  z-index: 5;
+  position: relative;
+  top: 25px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+}
+p#par1{
+  margin: 5px 5px;
+  top: 47px;
+}
+div.mail form{
+  display: flex;
+  position: relative;
+  top: 55px;
+}
+input{
+  margin: 5px 5px;
+  padding: 17px 5px;
+  width: 363px;
+  border-radius: 4px;
+  z-index: 5;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: large;
+}
+button#get{
+  margin: 0px -2px;
+  padding: 9px 26px;
+  font-weight: bold;
+  font-size: 24px;
+  width: 218px;
+  z-index: 5;
+  color: white;
+  background-color: rgb(229, 9, 20);
+  border-radius: 4px;
+  border: 1px solid rgb(229, 9, 20);
+  position: relative;
+  top: 4px;
+  left: 6px;
+  height: 59px;
+  text-align: center;
+}
+button#get:hover{
+  background-color: #c4050e;
+  cursor: pointer;
+}
+
+/* sectino TV
+------------------------------------------------------------------------------
+*/
+
+hr{
+  height: 7.5px;
+  background-color: black;
+  opacity: 0.85;
+  border: #bbc5be ;
+  
+}
+div.luststories{
+  display: flex;
+  flex-direction: row;
+  height: 76vh;
+  color: white;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid white; */
+}
+img#tv{
+  height: 330px;
+  width: 473px;
+  /* border: 1px solid white; */
+  position: relative;
+  bottom: 15px;
+  z-index: 10;
+
+}
+div.luststories div.headings{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  justify-content: left;
+  height: 30vh;
+  width: 37vw;
+  position: relative;
+  right: 26px;
+}
+h1.tv{
+  color: rgb(255, 255, 255);
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  font-size: 47px;
+  text-align: left;
+
+}
+h4{
+  z-index: 5;
+  font-family: 'Abel', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  position: relative;
+  top: 20px;
+}
+div.luststories video{
+  height: 282px;
+    width: 365px;
+    margin: -20px -188px;
+    position: relative;
+    top: -9px;
+    left: -222px;
+    z-index: 9;
+  
+}
+
+/*  SECTION STRANGER
+-----------------------------------------------------------------------------------
+ */
+
+div.stranger{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 80vh;
+  background-color: black;
+  color: white;
+  /* border: 1px solid white; */
+  justify-content: center;
+  align-items: center;
+
+}
+div#box2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 60px;
+}
+div.stranger img#luck{
+  width: 475px;
+  height: 365px;
+  /* border: 1px solid white; */
+  margin: 5px 22px;
+  position: relative;
+  right: 68px;
+  /* z-index: ; */
+}
+
+div.stranger div.headings{
+  display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 30vh;
+    width: 37vw;
+    position: relative;
+    right: -231px;
+    bottom: 287px;
+}
+div.stranger div.headings h1{
+  color: rgb(255, 255, 255);
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  font-size: 47px;
+  text-align: left;
+
+}
+div.stranger div.headings h4{
+  z-index: 5;
+  font-family: 'Abel', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  position: relative;
+  top: 20px;
+}
+
+div#box1{
+  display: flex;
+    flex-direction: row;
+    width: 265px;
+    height: 96px;
+    border: 2px solid #645d5d;
+    z-index: 2;
+    margin: 5px 44px;
+    padding: 2px 2px;
+    position: relative;
+    right: 509px;
+    border-radius: 12px;
+    /* justify-content: center; */
+    align-items: center;
+    top: 112px;
+    background: url("ASSETS/download-icon.gif")center center no-repeat,black;
+    background-size: 50px 50px;
+    background-position: right;
+}
+div#box1 img{
+  height: 82px;
+  width: 56px;
+  position: relative;
+  left: 9px;
+}
+
+div.text h5{
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+  position: relative;
+  left: 22px;
+  width: 10px;
+  background-color: black;
+}
+div.text p{
+  color: rgb(0 113 235);
+  position: relative;
+  left: 22px;
+  top: 3px;
+}
+
+
+/*APPLE MONITER PAGE
+------------------------------------------------------------------------------------------ 
+ */
+
+ div.apple{
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+div.apple video{
+  height: 281px;
+    width: 289px;
+    margin: -20px -188px;
+    position: relative;
+    top: -78px;
+    left: -197px;
+    z-index: 9;
+}
+div.apple img{
+  z-index: 10;
+  height: 388px;
+  width: 473px;
+  /* border: 1px solid white; */
+  position: relative;
+  bottom: 15px;
+  z-index: 10;
+  right: 3px;
+
+}
+div.headings3{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  justify-content: left;
+  height: 30vh;
+  width: 37vw;
+  position: relative;
+  right: 26px;
+}
+
+div.headings3 h1{
+  color: rgb(255, 255, 255);
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  font-size: 47px;
+  text-align: left;
+}
+
+div.headings3 h4{
+  z-index: 5;
+  font-family: 'Abel', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  position: relative;
+  top: 20px;
+}
+
+/*children
+------------------------------------------------------------------------------------------ 
+ */
+
+ div.children{
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+ }
+ div.children img{
+  width: 475px;
+  height: 365px;
+  /* border: 1px solid white; */
+  margin: 5px 22px;
+  position: relative;
+  right: 23px;
+ }
+ div.children div.headings4{
+  display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 30vh;
+    width: 37vw;
+    position: relative;
+    right: 15px;
+ }
+ div.children div.headings4 h1{
+  color: rgb(255, 255, 255);
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  font-size: 47px;
+  text-align: left;
+
+}
